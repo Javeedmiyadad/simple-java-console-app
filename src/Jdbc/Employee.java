@@ -20,6 +20,15 @@ public class Employee {
         return empId;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "empId=" + empId +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
     public void setEmpId(int empId) {
         this.empId = empId;
     }
